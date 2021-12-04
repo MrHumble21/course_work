@@ -1,0 +1,313 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 21px;
+}
+
+.div1 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.div4 {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+
+.grid-img {
+    background-color: rgba(119, 231, 242, 0.83);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 21px;
+}
+
+
+.about-hospital {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.angry-grid {
+    display: grid;
+
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    gap: 0px;
+
+}
+
+#item-0 {
+
+    background-color: #DEE7B6;
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+
+}
+#item-1 {
+
+    background-color: #579FBC;
+    grid-row-start: 1;
+    grid-column-start: 4;
+
+    grid-row-end: 2;
+    grid-column-end: 5;
+
+}
+#item-2 {
+
+    background-color: #5FBA87;
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+
+}
+#item-3 {
+
+    background-color: #77DAD5;
+    grid-row-start: 2;
+    grid-column-start: 3;
+
+    grid-row-end: 3;
+    grid-column-end: 4;
+
+}
+#item-4 {
+
+    background-color: #DB9BB9;
+    grid-row-start: 2;
+    grid-column-start: 5;
+
+    grid-row-end: 3;
+    grid-column-end: 6;
+
+}
+
+
+.angry-grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent !important;
+
+}
+
+.grid-img {
+
+    width: 200px;
+
+}
+
+@keyframes aaa {
+
+    1% {
+        border-radius: 100%;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+
+
+    }
+    10% {
+        border-radius: 100px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+
+    }
+
+    20% {
+        border-radius: 75px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+
+    }
+
+    35% {
+        border-radius: 65px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+    }
+
+    50% {
+        border-radius: 0px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+    }
+
+    70% {
+        border-radius: 25px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+    }
+
+    85% {
+        border-radius: 35px;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+    }
+
+    100% {
+        border-radius: 100%;
+        border-top: 5px solid red;
+        border-bottom: 5px solid green;
+        border-right: 5px solid yellow;
+        border-left: 5px solid blue;
+    }
+}
+
+
+@keyframes rotate {
+
+    1% {
+        transform: rotate(120deg);
+    }
+
+
+    33% {
+        transform: rotate(240deg);
+
+    }
+
+    66% {
+        transform: rotate(360deg);
+
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+
+    }
+
+}
+
+.icon {
+    animation: rotate 5s infinite;
+}
+
+
+/* Section */
+.section {
+    clear: both;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Column */
+.col {
+    background: #eee;
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+    margin-left: 0 !important;
+}
+
+/* Row */
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.row {
+    zoom: 1; /* For IE 6/7 */
+}
+
+/* Grid */
+.grid_1_of_4 {
+    width: 23.8%
+}
+
+.grid_2_of_4 {
+    width: 49.2%
+}
+
+.grid_3_of_4 {
+    width: 74.6%
+}
+
+.grid_4_of_4 {
+    width: 100%
+}
+
+/* Full Width below 768 pixels */
+@media only screen and (max-width: 768px) {
+    .col {
+        margin: 1% 0 1% 0%;
+    }
+
+    [class*='grid_'] {
+        width: 100%;
+    }
+}
+
+.appointment-form >  label{
+    color: deeppink;
+}
+
+
+
+.col > h1{
+    color:#009DAE;
+    margin: 5px;
+}
+.col > ul > li{
+    list-style: none !important;
+    margin: 10px;
+    letter-spacing:2px;
+    color:#009DAE;
+}
+
+.div{
+    /* From https://css.glass */
+background-color:white !important;
+    z-index: 100;
+}
+

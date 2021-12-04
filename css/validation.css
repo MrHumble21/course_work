@@ -1,0 +1,57 @@
+.validation{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    min-height: 330px;
+    background-color: transparent;
+    color: black;
+    margin: 20px;
+    border-radius: 15px;
+}
+.val-numbers{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 139, 139, 0.69);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted orangered;
+    padding: 30px;
+}
+
+label{
+    color: white;
+}
+
+.val-numbers> h3{
+    font-size: 35px;
+    margin: 10px;
+}
+
+#submit_btn{
+    width: 30%;
+    margin: auto;
+    color: white;
+    background-color:silver;
+    border: none !important;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 16px;
+}
+
+.val-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.book_appointment{
+    display: none;
+}
+
+
+.visible{
+    display: block !important;
+}
