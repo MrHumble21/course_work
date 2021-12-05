@@ -18,3 +18,8 @@ nav{
     background-color:#71DFE7 !important;
     border-radius: 0px !important;
 }
+
+.nav-items{
+    background-color: rgba(113, 223, 231, 0.8) !important;
+    border-radius: 0px !important;
+}
