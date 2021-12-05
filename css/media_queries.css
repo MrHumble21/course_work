@@ -13,10 +13,14 @@ and (max-width : 700px) {
     }
 
     .nav-href{
-        background-color: darkcyan;
         border-radius: 35px;
-        color: white !important;
+        color: black !important;
+
         margin: 15px !important;
+    }
+
+    .nav-href:hover{
+        border: none !important;
     }
     .row{
         display: flex;
@@ -28,6 +32,20 @@ and (max-width : 700px) {
         flex-direction: column;
         width: 100%;
         text-align: center;
+    }
+    .container-special{
+    background-color: #71DFE7; !important;
+
+    }
+
+    .navlink{
+        /* From https://css.glass */
+        background: darkcyan;
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(14.7px);
+        -webkit-backdrop-filter: blur(14.7px);
+        border: 1px solid rgba(12, 136, 166, 0.3);
     }
 
     .about-hospital{
@@ -114,9 +132,10 @@ and (max-width : 700px) {
     position: fixed !important;
     top: 50px !important;
     right: 5px !important;
-    height:95vh;
+    height:35vh;
     z-index: 1000 !important;
     /* From https://css.glass */
+    background-color: transparent !important;
     /* From https://css.glass */
 
 }

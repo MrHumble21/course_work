@@ -24,7 +24,7 @@
             <li class="navlink"><a href="about.html" class="nav-href">about</a></li>
             <li class="navlink"><a href="appointment.html" class="nav-href">appointment</a></li>
         </ol>
-        <h1 id="nav-toggler-btn" class="nav-toggler">⁜</h1>
+        <h1 id="nav-toggler-btn" class="nav-toggler"><i class="fas fa-bars"></i></h1>
     </div>
    <div class="div">
        <ul sty class=" disabled nav-items">
@@ -233,15 +233,17 @@
         </form>
         <div id="val-wrapper" class="validation">
             <div class="val-numbers">
-                <h3 id="num-1" class="val-num-1"></h3>
-                <h3>+</h3>
-                <h3 id="num-2" class="val-num-2"></h3>
+              <div class="flex-wrap">
+                  <h3 id="num-1" class="val-num-1"></h3>
+                  <h3>+</h3>
+                  <h3 id="num-2" class="val-num-2"></h3>
+              </div>
               <div class="val-input">
                   <h3 id="false-answer" style="color: red; text-align: center;"></h3>
                   <label for="user-input">
                       please prove that you are human!
                   </label>
-                  <input style="border: 1px solid black; margin: 5px;" type="number" name="" id="user-input">
+                  <input style="border: 1px solid black; margin: 5px; background-color: rgba(168,236,231,0.62)" type="number" name="" id="user-input">
                   <button id="submit_btn" type="submit">SUBMIT</button>
               </div>
             </div>

@@ -55,3 +55,8 @@ label{
 .visible{
     display: block !important;
 }
+
+.enabled
+{
+    background-color: transparent !important;
+}
