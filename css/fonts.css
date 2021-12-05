@@ -23,3 +23,13 @@ nav{
     background-color: rgba(113, 223, 231, 0.8) !important;
     border-radius: 0px !important;
 }
+
+.navbrand{
+    color: #fff !important;
+}
+
+.nav-toggler{
+    color: #fff !important;
+    border-color: white !important;
+    border-radius: 5px !important;
+}
