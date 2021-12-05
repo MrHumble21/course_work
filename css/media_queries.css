@@ -48,7 +48,8 @@ and (max-width : 700px) {
         width: 85% !important;
     }
     .about-hospital-container{
-        width:100%;
+        width:95%;
+
         display: flex;
         justify-content: center;
         text-align: center;
