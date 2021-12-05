@@ -311,3 +311,18 @@ background-color:white !important;
     z-index: 100;
 }
 
+.flex-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.val-numbers{
+    background-color: rgba(14, 38, 37, 0.8) !important;
+    border: none !important;
+    border-radius: 18px;
+    color: darkcyan !important;
+}
+.user{
+    color: darkcyan !important;
+
+}
