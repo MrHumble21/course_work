@@ -60,3 +60,8 @@ label{
 {
     background-color: transparent !important;
 }
+
+.col{
+    min-height: 250px !important;
+    background-color: transparent !important;
+}
