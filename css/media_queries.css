@@ -152,3 +152,9 @@ nav{
     /*-webkit-backdrop-filter: blur(9.5px);*/
     /*border: 1px solid rgba(255, 255, 255, 0.3);*/
 }
+
+@media only screen and (min-width: 1200px) {
+    .nav-toggler{
+        display: none;
+    }
+}
