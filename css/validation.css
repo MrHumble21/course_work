@@ -65,3 +65,7 @@ label{
     min-height: 250px !important;
     background-color: transparent !important;
 }
+
+footer{
+    background-color: white !important;
+}
