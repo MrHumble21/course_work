@@ -46,3 +46,13 @@ const nav_btn = document.getElementById('nav-toggler-btn')
 nav_btn.addEventListener('click', ()=>{
     document.getElementById('nav-items').classList.toggle('enabled');
 })
+
+
+
+
+
+
+
+
+
+confirm("<h1>This website was created to fulfill Web Technology module's requirements and does not represent an actual company or service</h1>")
