@@ -55,4 +55,4 @@ nav_btn.addEventListener('click', ()=>{
 
 
 
-confirm("<h1>This website was created to fulfill Web Technology module's requirements and does not represent an actual company or service</h1>")
+confirm("This website was created to fulfill Web Technology module's requirements and does not represent an actual company or service")
